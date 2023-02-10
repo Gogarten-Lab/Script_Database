@@ -10,3 +10,7 @@ gene_maps.ipynb,Other,list of coordinates for genes,image,python,none, makes gen
 parse.py,Sequence_Alignment_Utilities,multi.fasta,.fasta,python,none, splits a fasta into smaller fastas,Yutian Feng,In,fasta,10/02/2023,N/A
 tANI_low_mem.pl,Phylogenetics_Utilities,*.fna,matrices in .csv,perl,none, tANI method,Sophia Gosselin,In,tANI,10/02/2023,N/A
 contigtrimmer.pl,Other,.fna,.fasta(s),perl,none, trims contigs keeps 5000 flanking nucleotides,Yutian Feng,In,trimmer,10/02/2023,N/A
+accumulation_curve.R,Other,pan genome matrix,re-sampling matrix in .tsv,R,none, pan-genome resampling experiment,Yutian Feng,In,accumulation,10/02/2023,N/A
+rarefaction_curve.R,Other,pan genome matrix,re-sampling matrix in .tsv,R,none, core-genome resampling experiment,Yutian Feng,In,rarefaction,10/02/2023,N/A
+buildtree_w_support.R,Other,genome tANI matrix,image or newick,R,none, buidls distance based phylogenies,Sophia Gosselin,In,tANI phylogeny,10/02/2023,N/A
+
