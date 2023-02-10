@@ -3,3 +3,4 @@ Script Name,Subdirectory location,Inputs,Outputs,Language,Dependencies,General D
 convert_csv_to_markdown.pl,File_Utilities,.csv (comma seperated table),.mrkd (markdown formatted table),perl,none,Converts a csv table using commas as the seperator to a markdown formatted table,Sophia Gosselin,In,markdown/csv,21_10_13,N/A
 renaming_utilities.ipynb,File_Utilities,fasta/newick,fasta/newick,python,
 varsnps.sh,Other,.fastq/fastq.gz,.bcf/.vcf,Unix,none,Finds variants using read data,Yutian Feng,In,variants/vcf/bcf,10/02/2023,N/A
+wrapper_supermatrix.py/supermatrix.py,Seq_Utilities,.fasta,.fasta (aligned),Python,none,makes a concatenate of all your gene clusters,Yutian Feng,In,concatenate/msa,10/02/2023,N/A
