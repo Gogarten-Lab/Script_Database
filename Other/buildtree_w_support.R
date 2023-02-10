@@ -1,7 +1,6 @@
 # Built for use with the tANI distance and associated methodology
 # Hence matrices are not symmetrical and need to be averaged 
 
-
 # If you are not using the tANI script you will need to change these inputs. 
 # Make sure your bootstrapped matrices have a unique file extension i.e. .matrix
 ANI_orig_file <- "Distance_.orig"
