@@ -13,4 +13,5 @@ contigtrimmer.pl,Other,.fna,.fasta(s),perl,none, trims contigs keeps 5000 flanki
 accumulation_curve.R,Other,pan genome matrix,re-sampling matrix in .tsv,R,none, pan-genome resampling experiment,Yutian Feng,In,accumulation,10/02/2023,N/A
 rarefaction_curve.R,Other,pan genome matrix,re-sampling matrix in .tsv,R,none, core-genome resampling experiment,Yutian Feng,In,rarefaction,10/02/2023,N/A
 buildtree_w_support.R,Other,genome tANI matrix,image or newick,R,none, buidls distance based phylogenies,Sophia Gosselin,In,tANI phylogeny,10/02/2023,N/A
+mad.R,Phylogenetic Utilities,.newick/.phylip,.newick or image,R,none, roots tree using MAD,Yutian Feng,In,minimum ancestor deviation,10/02/2023,N/A
 
