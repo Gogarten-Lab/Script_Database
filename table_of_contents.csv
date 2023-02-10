@@ -9,3 +9,4 @@ gene_fam_upload.ipynb,Phylogenetics_Utilities,*.mldist,matrix in .tsv,python,non
 gene_maps.ipynb,Other,list of coordinates for genes,image,python,none, makes gene/operon maps,Yutian Feng,In,gene maps,10/02/2023,N/A
 parse.py,Sequence_Alignment_Utilities,multi.fasta,.fasta,python,none, splits a fasta into smaller fastas,Yutian Feng,In,fasta,10/02/2023,N/A
 tANI_low_mem.pl,Phylogenetics_Utilities,*.fna,matrices in .csv,perl,none, tANI method,Sophia Gosselin,In,tANI,10/02/2023,N/A
+contigtrimmer.pl,Other,.fna,.fasta(s),perl,none, trims contigs keeps 5000 flanking nucleotides,Yutian Feng,In,trimmer,10/02/2023,N/A
