@@ -86,7 +86,6 @@ for Key in Concatdict1:
 OInFile1.close()
 OInFile2.close()	
 OutFile1.close()
-
 OutFile2 = "MissingSeqs.list_" + InFile3	
 OpenOutFile2 = open(OutFile2, 'w')
 OpenOutFile2.write("Missing sequences in " + InFile1 + " are: " + "\n")
