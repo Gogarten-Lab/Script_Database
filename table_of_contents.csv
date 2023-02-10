@@ -7,3 +7,4 @@ wrapper_supermatrix.py/supermatrix.py,Seq_Utilities,.fasta,.fasta (aligned),Pyth
 ori_analy.py,Other,genomic.fna,.pdf/.svg/.png,python,none, find the origin of replication using gc skew,Yutian Feng,In,ori/gc skew,10/02/2023,N/A
 gene_fam_upload.ipynb,Phylogenetics_Utilities,*.mldist,matrix in .tsv,python,none, find evolutionary trajectories in the same genome,Yutian Feng,In,trajectory,10/02/2023,N/A
 gene_maps.ipynb,Other,list of coordinates for genes,image,python,none, makes gene/operon maps,Yutian Feng,In,gene maps,10/02/2023,N/A
+parse.py,Sequence_Alignment_Utilities,multi.fasta,.fasta,python,none, splits a fasta into smaller fastas,Yutian Feng,In,fasta,10/02/2023,N/A
