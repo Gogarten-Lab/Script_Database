@@ -6,3 +6,4 @@ varsnps.sh,Other,.fastq/fastq.gz,.bcf/.vcf,Unix,none,Finds variants using read d
 wrapper_supermatrix.py/supermatrix.py,Seq_Utilities,.fasta,.fasta (aligned),Python,none,makes a concatenate of all your gene clusters,Yutian Feng,In,concatenate/msa,10/02/2023,N/A
 ori_analy.py,Other,genomic.fna,.pdf/.svg/.png,python,none, find the origin of replication using gc skew,Yutian Feng,In,ori/gc skew,10/02/2023,N/A
 gene_fam_upload.ipynb,Phylogenetics_Utilities,*.mldist,matrix in .tsv,python,none, find evolutionary trajectories in the same genome,Yutian Feng,In,trajectory,10/02/2023,N/A
+gene_maps.ipynb,Other,list of coordinates for genes,image,python,none, makes gene/operon maps,Yutian Feng,In,gene maps,10/02/2023,N/A
