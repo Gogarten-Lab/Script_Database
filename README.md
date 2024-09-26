@@ -24,7 +24,7 @@ Scripts that:
 
 Note: These scripts should be applicible to more than just one specific analysis.
 
-#### Databse_Utilities
+#### Database_Utilities
 
 Scripts that:
 

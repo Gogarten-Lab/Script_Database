@@ -1,3 +1,18 @@
 Script Name,Subdirectory location,Inputs,Outputs,Language,Dependencies,General Description,Author,In or Out of House,Keywords,Date Submitted,Date Updated
 ---,---,---,---,---,---,---,---,---,---,---,---
 convert_csv_to_markdown.pl,File_Utilities,.csv (comma seperated table),.mrkd (markdown formatted table),perl,none,Converts a csv table using commas as the seperator to a markdown formatted table,Sophia Gosselin,In,markdown/csv,21_10_13,N/A
+renaming_utilities.ipynb,File_Utilities,fasta/newick,fasta/newick,python,
+varsnps.sh,Other,.fastq/fastq.gz,.bcf/.vcf,Unix,none,Finds variants using read data,Yutian Feng,In,variants/vcf/bcf,10/02/2023,N/A
+wrapper_supermatrix.py/supermatrix.py,Seq_Utilities,.fasta,.fasta (aligned),Python,none,makes a concatenate of all your gene clusters,Yutian Feng,In,concatenate/msa,10/02/2023,N/A
+ori_analy.py,Other,genomic.fna,.pdf/.svg/.png,python,none, find the origin of replication using gc skew,Yutian Feng,In,ori/gc skew,10/02/2023,N/A
+gene_fam_upload.ipynb,Phylogenetics_Utilities,*.mldist,matrix in .tsv,python,none, find evolutionary trajectories in the same genome,Yutian Feng,In,trajectory,10/02/2023,N/A
+gene_maps.ipynb,Other,list of coordinates for genes,image,python,none, makes gene/operon maps,Yutian Feng,In,gene maps,10/02/2023,N/A
+parse.py,Sequence_Alignment_Utilities,multi.fasta,.fasta,python,none, splits a fasta into smaller fastas,Yutian Feng,In,fasta,10/02/2023,N/A
+tANI_low_mem.pl,Phylogenetics_Utilities,*.fna,matrices in .csv,perl,none, tANI method,Sophia Gosselin,In,tANI,10/02/2023,N/A
+contigtrimmer.pl,Other,.fna,.fasta(s),perl,none, trims contigs keeps 5000 flanking nucleotides,Yutian Feng,In,trimmer,10/02/2023,N/A
+accumulation_curve.R,Other,pan genome matrix,re-sampling matrix in .tsv,R,none, pan-genome resampling experiment,Yutian Feng,In,accumulation,10/02/2023,N/A
+rarefaction_curve.R,Other,pan genome matrix,re-sampling matrix in .tsv,R,none, core-genome resampling experiment,Yutian Feng,In,rarefaction,10/02/2023,N/A
+buildtree_w_support.R,Other,genome tANI matrix,image or newick,R,none, buidls distance based phylogenies,Sophia Gosselin,In,tANI phylogeny,10/02/2023,N/A
+mad.R,Phylogenetic Utilities,.newick/.phylip,.newick or image,R,none, roots tree using MAD,Yutian Feng,In,minimum ancestor deviation,10/02/2023,N/A
+cat_mat_corr.R,Other,distance matrix,statistical summary,R,none, compares two distance matrices and categorically evaluates if different,Yutian Feng,In,mantel distance matrix,10/02/2023,N/A
+
